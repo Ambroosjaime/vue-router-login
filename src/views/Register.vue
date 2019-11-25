@@ -8,11 +8,10 @@
 
     <input type="password" name="repeatPassword" v-model="input.repeatPassword" placeholder="Password"/>
 
-    <hr />
-
+    
     <p>
       By creating an account you agree to our
-      <router-link to="/terms">Terms & Privacy.</router-link>
+      <router-link to="/terms">Terms & Privacy?</router-link>
     </p>
 
     <button type="submit" class="registerbtn">Register</button>
