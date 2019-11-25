@@ -4,9 +4,10 @@
 
     <input type="text" name="username" v-model="input.username" placeholder="Username" />
 
+    <input type="password" name="repeatPassword" v-model="input.repeatPassword" placeholder="Password"/>
+
     <input type="password" name="password" v-model="input.password" placeholder="Repeat Password" />
 
-    <input type="password" name="repeatPassword" v-model="input.repeatPassword" placeholder="Password"/>
 
     
     <p>
