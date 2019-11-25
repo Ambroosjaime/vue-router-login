@@ -7,7 +7,9 @@
     <input type="password" name="password" v-model="input.password" placeholder="Password"/>
     <br>
     <p>forgot your password?</p>
-    <button type="button" v-on:click="login()"><router-link to="/login">Sign In</router-link></button>
+    <br>
+    <br>
+    <button type="button" class="btn1" v-on:click="login()">Sign In</button>
   </div>
 </template>
 
@@ -36,15 +38,15 @@ export default {
 }
 
 input[type="text"] {
-  /*display: block;
-  width: 70%;*/
+  display: block;
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
 }
 input[type="password"] {
-  /*display: block;
-  width: 70%;*/
+  display: block;
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -59,11 +61,10 @@ button a {
    text-decoration: none;
 }
 
-button {
+.btn1{
   background-color: rgb(0, 0, 46);
   color: white;
   padding: 15px 20px;
-  margin-top:20px;
   border: none;
   cursor: pointer;
   width: 100%;
@@ -74,4 +75,6 @@ button {
 p{
   display: inline;
 }
+
+
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div id="register">
-    <h1>Please Register</h1>
+    <h1>Register</h1>
 
     <input type="text" name="username" v-model="input.username" placeholder="Username" />
 
@@ -14,7 +14,7 @@
       <router-link to="/terms">Terms & Privacy?</router-link>
     </p>
 
-    <button type="submit" class="registerbtn">Register</button>
+    <button type="submit" class="btn3">Register</button>
   </div>
 </template>
 
@@ -55,5 +55,15 @@ input[type="password"] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+}
+
+.btn3{
+  background-color: rgb(0, 0, 46);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
 }
 </style>
