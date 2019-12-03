@@ -2,11 +2,11 @@
   <div id="home">
     <h1>Login</h1>
     <br>
-    <p>need an account?</p><router-link to="/register"><p>Create an account</p></router-link>
+    <p>need an account?</p><router-link to="/register"><p>Create an account?</p></router-link>
     <input type="text" name="username" v-model="input.username" placeholder="Username"/>
     <input type="password" name="password" v-model="input.password" placeholder="Password"/>
     <br>
-    <p>forgot your password?</p>
+    <router-link to=""></router-link><p>forgot your password?</p>
     <br>
     <br>
     <button type="button" class="btn1" v-on:click="login()">Sign In</button>
