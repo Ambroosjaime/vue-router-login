@@ -1,1 +1,1 @@
-https://ambroosjaime.github.io/vue-router-login/register
+https://ambroosjaime.github.io/vue-router-login/
